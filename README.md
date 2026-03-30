@@ -1,7 +1,11 @@
 # 🧩 Linked List Problem Collection (Java)
 
 <div align="center">
-  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="200" alt="Coding">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00ffcc&center=true&vCenter=true&width=700&lines=Master+Linked+Lists+with+Java.;Solve+100+Problems+Step+by+Step.;Boost+Your+Coding+Skills." alt="Typing Animation Header" />
+  </a>
+  <br>
+  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Coding Animation">
 </div>
 
 ---
@@ -9,48 +13,36 @@
 ## 📖 About the Project
 
 This repository contains a **collection of Java programs** solving **Linked List problems** — from basic operations to intermediate and advanced challenges.
-The goal is to strengthen understanding of **Linked List data structures**, improve **problem-solving skills**, and prepare for **competitive programming or interviews**.
+The project is designed to help developers and students **visualize, implement, and master linked lists** with interactive and well-documented Java code.
 
-**Key Features:**
+**✨ Key Features:**
 
 * Singly and Doubly Linked Lists
 * Basic Operations: Insert, Delete, Search
 * Advanced Problems: Reverse, Detect Cycle, Merge Lists
-* Utilities: Display, Count Nodes, Find Middle, etc.
-* Java implementation with clear, readable code
+* Utilities: Display, Count Nodes, Find Middle, Rotate, and more
+* Fully commented **Java code with animations** for better understanding
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Language:** Java
-* **IDE:** Any Java-compatible IDE (Eclipse, IntelliJ IDEA, VS Code)
-* **Data Structure Focus:** Linked List
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/JDBC-FF6F00?style=for-the-badge&logoColor=white" alt="JDBC"/>
+</p>
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (Animated)
 
-```
-LinkedListProblems/
-│
-├── basics/                  # Basic linked list operations
-│   ├── CreateLinkedList.java
-│   ├── InsertNode.java
-│   └── DeleteNode.java
-│
-├── intermediate/            # Intermediate challenges
-│   ├── ReverseLinkedList.java
-│   ├── DetectCycle.java
-│   └── MergeSortedLists.java
-│
-├── advanced/                # Advanced/competitive problems
-│   ├── RemoveDuplicates.java
-│   ├── RotateList.java
-│   └── IntersectionNode.java
-│
-└── README.md                # Project overview and instructions
-```
+<div align="center">
+  <a href="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=800&color=FF5733&center=true&vCenter=true&width=700&lines=LinkedListProblems/;basics/;intermediate/;advanced/;README.md">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=800&color=FF5733&center=true&vCenter=true&width=700&lines=LinkedListProblems/;basics/;intermediate/;advanced/;README.md" alt="Animated Project Structure" />
+  </a>
+</div>
 
 ---
 
@@ -62,7 +54,7 @@ LinkedListProblems/
 git clone https://github.com/yourusername/LinkedListProblems.git
 ```
 
-2. Navigate to the problem folder:
+2. Navigate to a problem folder:
 
 ```bash
 cd LinkedListProblems/basics
@@ -75,25 +67,53 @@ javac CreateLinkedList.java
 java CreateLinkedList
 ```
 
-4. Explore other problems in the `intermediate/` and `advanced/` folders.
+4. Explore other folders: `intermediate/` and `advanced/`.
+
+---
+
+## 📊 Animated Java Examples
+
+```java
+// Example: Display a Linked List
+class Node {
+    int data;
+    Node next;
+    Node(int data) { this.data = data; next = null; }
+}
+
+public class DisplayLinkedList {
+    public static void main(String[] args) {
+        Node head = new Node(10);
+        head.next = new Node(20);
+        head.next.next = new Node(30);
+
+        Node temp = head;
+        while(temp != null) {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+            try { Thread.sleep(500); } catch(Exception e) {} // animation effect
+        }
+        System.out.println("NULL");
+    }
+}
+```
+
+*Tip: Run with animation to see nodes printed step by step.*
 
 ---
 
 ## 📈 Learning Outcomes
 
-By solving these problems, you will:
-
-* Gain a strong foundation in **Linked List concepts**
-* Learn to **implement data structures in Java**
-* Improve **coding logic for competitive programming**
-* Prepare for **technical interviews** in software development
+* Master **Linked List operations** in Java
+* Implement **data structures for real-world applications**
+* Develop **problem-solving and algorithmic thinking**
+* Prepare for **interviews and competitive programming**
 
 ---
 
 ## 📌 Contributions
 
-Contributions are welcome!
-If you have new Linked List problems, optimizations, or better explanations, feel free to open a **Pull Request**.
+Contributions are welcome! Open a **Pull Request** to add new problems, optimized solutions, or visual animations.
 
 ---
 
@@ -104,4 +124,4 @@ If you have new Linked List problems, optimizations, or better explanations, fee
 
 ---
 
-*Made with ❤️ in Java*
+*Made with ❤️ in Java and animations*
